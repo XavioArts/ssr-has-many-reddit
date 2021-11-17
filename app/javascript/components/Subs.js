@@ -7,6 +7,8 @@ const Subs = (props) => {
                 <div>
                     <h1>{sub.name}</h1>
                     <a href={`/subs/${sub.id}`}>Go to Sub Reddit</a>
+                    <br></br>
+                    <a href={`/subs/${sub.id}/edit`}>Edit this Sub Reddit</a>
                 </div>
             );
         });
